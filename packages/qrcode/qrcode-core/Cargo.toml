@@ -1,0 +1,12 @@
+﻿[package]
+name = "qrcode-core"
+version = "0.1.0"
+authors = [
+    "Матвей Т <https://matveit.dev>"
+]
+edition = "2021"
+
+[lib]
+name = "qrcode_core"
+path = "lib.rs"
+

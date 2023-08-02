@@ -1,0 +1,11 @@
+
+# Rust
+Cargo.lock
+
+# Build Output
+.build
+target
+
+# IDE
+.vscode
+.vs

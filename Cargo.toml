@@ -1,0 +1,5 @@
+﻿[workspace]
+members = [
+    "packages/qrcode/qrcode-core",
+    "packages/qrcode/",
+]
