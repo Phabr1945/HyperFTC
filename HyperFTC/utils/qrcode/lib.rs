@@ -1,4 +1,5 @@
-﻿use qrcode_core::*;
+﻿extern crate qrcode_core;
+use qrcode_core::*;
 
 #[derive(Clone, PartialEq, Eq)]
 #[repr(transparent)]

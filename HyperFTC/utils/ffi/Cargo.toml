@@ -1,0 +1,15 @@
+﻿[package]
+name = "ffi"
+version = "0.1.0"
+
+[lib]
+name = "ffi"
+path = "lib.rs"
+proc-macro = true
+
+[dependencies.quote]
+version = "1"
+
+[dependencies.syn]
+version = "2"
+features = ["full"]

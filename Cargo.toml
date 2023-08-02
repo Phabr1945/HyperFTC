@@ -1,5 +1,12 @@
 ﻿[workspace]
 members = [
-    "packages/qrcode/qrcode-core",
-    "packages/qrcode/",
+    "packages/utils/qrcode_core",
+    "packages/utils/qrcode/",
+    "packages/utils/ffi",
 ]
+
+[worspace.project]
+authors = [
+    "Матвей Т <https://matveit.dev>"
+]
+edition = "2021"

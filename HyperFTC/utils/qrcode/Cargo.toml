@@ -1,0 +1,14 @@
+﻿[package]
+name = "qrcode"
+version = "0.1.0"
+
+[[bin]]
+name = "generate-qrcodes"
+path = "../../bins/generate_qrcodes.rs"
+
+[lib]
+name = "qrcode"
+path = "lib.rs"
+
+[dependencies]
+qrcode_core = { path = "../qrcode_core" }

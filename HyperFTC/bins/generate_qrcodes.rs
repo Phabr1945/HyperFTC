@@ -1,4 +1,4 @@
-use qrcode::*;
+extern crate qrcode;use qrcode::*;
 
 use std::path::Path;
 use std::io::Write;
